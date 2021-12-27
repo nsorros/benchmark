@@ -35,4 +35,4 @@ model.compile(
     loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
     metrics=[tf.keras.metrics.SparseCategoricalAccuracy()]
 )
-model.fit(ds_train, epochs=100, validation_data=ds_test)
+model.fit(ds_train, epochs=10, validation_data=ds_test)
