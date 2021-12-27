@@ -1,0 +1,10 @@
+name: benchmark
+channels:
+    - apple
+dependencies:
+    - tensorflow-deps
+    - tensorflow-datasets
+    - pip
+    - pip:
+        - tensorflow-macos
+        - tensorflow-metal
