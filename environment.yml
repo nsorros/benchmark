@@ -1,0 +1,4 @@
+name: benchmark
+dependencies:
+    - tensorflow
+    - tensorflow-datasets
