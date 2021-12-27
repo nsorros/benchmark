@@ -1,4 +1,6 @@
 name: benchmark
 dependencies:
+    - datasets
+    - transformers
     - tensorflow
     - tensorflow-datasets

@@ -1,2 +1,4 @@
+datasets
+transformers
 tensorflow
 tensorflow_datasets
